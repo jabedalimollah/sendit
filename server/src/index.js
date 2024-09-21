@@ -5,7 +5,7 @@ import app from "./app.js";
 dotenv.config();
 
 // ------------- PORT -----------------
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 connectDB()
   .then(() => {
     app.listen(PORT, () => {

@@ -26,7 +26,7 @@ const createRoom = asyncHandler(async (req, res) => {
   if (!filesData) {
     throw new ApiError(400, "Files is required");
   }
-  //   console.log("filesdata", filesData);
+  // console.log("filesdata", filesData);
   const createRoom = await Room.create({
     roomName,
     password,

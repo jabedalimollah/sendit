@@ -1,0 +1,42 @@
+.sbutton {
+  /* background: rgb(203, 40, 244);
+  background: linear-gradient(
+    54deg,
+    rgba(203, 40, 244, 1) 33%,
+    rgba(29, 110, 253, 1) 94%
+  ); */
+  background: rgb(211, 31, 255);
+  background: linear-gradient(
+    54deg,
+    rgba(211, 31, 255, 1) 42%,
+    rgba(0, 7, 249, 1) 100%
+  );
+}
+.sbutton:hover {
+  background: rgb(174, 26, 210);
+  background: linear-gradient(
+    54deg,
+    rgb(152, 24, 184) 42%,
+    rgb(19, 25, 189) 100%
+  );
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4f8acd;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
